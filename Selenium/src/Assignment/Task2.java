@@ -36,8 +36,6 @@ public class Task2 {
 		driver1.manage().window().setSize(d1);
 		System.out.println(driver1.manage().window().getPosition());
 
-		
-
 	}
 
 }

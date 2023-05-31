@@ -32,8 +32,7 @@ public class Task1 {
 		default:
 		{
 			System.out.println("Wrong choice");
-		}
-			
+		}	
 		}
 	*/
 		
@@ -50,7 +49,6 @@ public class Task1 {
 			System.out.println("no such browser");
 		driver.manage().window().maximize();
 		driver.get("https://www.fb.com");
-		}
-
+		
+	}
 }
-
