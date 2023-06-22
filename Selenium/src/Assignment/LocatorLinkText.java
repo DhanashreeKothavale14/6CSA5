@@ -16,8 +16,8 @@ public class LocatorLinkText {
 		driver.findElement(By.linkText("Log in"));
 		System.out.println("element 1 identified");
 		
-		driver.get("https://www.javatpoint.com/selenium-tutorial");
-		driver.findElement(By.linkText(" Join Now"));
+		driver.get("https://www.facebook.com/");
+		driver.findElement(By.linkText("Forgotten password?"));
 		System.out.println("element 2 identified");
 		
 		driver.get("https://www.guru99.com/selenium-tutorial.html");

@@ -1,0 +1,21 @@
+package WebElementMethods;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+
+public class IsDisplayed {
+
+	public static void main(String[] args) {
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://fb.com");
+		WebElement username = driver.findElement(By.id("email"));
+		System.out.println(username.isDisplayed()); 
+		
+		
+	}
+
+}

@@ -32,11 +32,7 @@ public class LocatorPartialLinkText {
 				driver.get("https://github.com/");
 				driver.findElement(By.partialLinkText("Pricing"));
 				System.out.println("element 5 identified");	
-				
-				driver.get("https://www.zomato.com/india");
-				driver.findElement(By.partialLinkText("Log"));
-				System.out.println("element 6 identified");	
-				
+			
 				driver.get("https://www.amazon.in/");
 				driver.findElement(By.partialLinkText("Mobi"));
 				System.out.println("element 7 identified");	
